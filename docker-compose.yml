@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_USER=sa
+      - POSTGRES_PASSWORD=password@12345#
+      - POSTGRES_DB=auto_moreira_db
+    ports:
+      - 5432:5432
