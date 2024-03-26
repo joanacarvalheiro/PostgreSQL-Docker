@@ -1,5 +1,4 @@
 FROM postgres
 
-ENV POSTGRES_USER sa
+ENV POSTGRES_USER postgres
 ENV POSTGRES_PASSWORD password@12345#
-ENV POSTGRES_DB auto_moreira_db

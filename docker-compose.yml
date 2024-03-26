@@ -6,8 +6,7 @@ services:
     image: postgres:latest
     restart: always
     environment:
-      - POSTGRES_USER=sa
+      - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=password@12345#
-      - POSTGRES_DB=auto_moreira_db
     ports:
-      - 5432:5432
+      - 5434:5432
